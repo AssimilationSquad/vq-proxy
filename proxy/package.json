@@ -1,0 +1,19 @@
+{
+  "name": "vq-proxy",
+  "version": "1.0.0",
+  "description": "> LairBnB, a frontend emulation of AirBnB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "http-proxy": "^1.17.0",
+    "morgan": "^1.9.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "dependencies": {}
+}
