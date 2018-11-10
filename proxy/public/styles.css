@@ -1,0 +1,27 @@
+/* .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Grid Grid Grid Grid" "Reviews Reviews Reviews Book" "Similar Similar Similar Similar";
+}
+
+#similar { grid-area: Similar; }
+
+#grid { grid-area: Grid; }
+
+#book { grid-area: Book; }
+
+#reviews_component { grid-area: Reviews; } */
+
+.grid-container {
+  overflow: auto;
+  display: inline-block;
+}
+
+#reviews_component {
+  float: left;
+}
+
+#book {
+  float: right;
+}
